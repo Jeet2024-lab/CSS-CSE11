@@ -4,6 +4,7 @@ h2{
 p{
     color: brown;
     text-align: center;
+    font-size: 25px;
 }
 .par{
     color: chartreuse;
@@ -11,4 +12,24 @@ p{
 
 #jk{
     color: antiquewhite;
+}
+
+/* div{
+    height: 200px;
+    width: 200px;
+    color: red;
+    background-color: cadetblue;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    margin: 100px;
+    border: 1px solid red;
+} */
+
+.jk{
+    display: block;
+}
+
+.jk2{
+    display: inline;
 }
