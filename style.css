@@ -73,14 +73,18 @@ p{
     background-color: aqua;
     border: 1px solid black;
     /* grid-template-columns:1fr 1fr 1fr 1fr ; */
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows:repeat(3,1fr) ;
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows:repeat(3,100px) ;
     /* grid-template-areas: "header header header header" 
     "main main . sidebar" 
     "footer footer footer footer"; */
     column-gap: 10px;
     justify-items: center;
     align-items: center;
+    justify-content: center;
+    align-content: center;
+   
 }
 
 .item{
