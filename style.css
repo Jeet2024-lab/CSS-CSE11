@@ -1,4 +1,4 @@
-h2{
+/* h2{
     color: aqua;
 }
 p{
@@ -12,7 +12,7 @@ p{
 
 #jk{
     color: antiquewhite;
-}
+} */
 
 /* div{
     height: 200px;
@@ -65,21 +65,21 @@ p{
     align-self: flex-end;
 } */
 
-.container{
+/* .container{
     display: grid;
 
     height: 500px;
     width: 1000px;
     background-color: aqua;
-    border: 1px solid black;
+    border: 1px solid black; */
     /* grid-template-columns:1fr 1fr 1fr 1fr ; */
     /* grid-template-columns: repeat(4,1fr); */
-    grid-template-columns: repeat(4,100px);
-    grid-template-rows:repeat(3,100px) ;
+    /* grid-template-columns: repeat(4,100px);
+    grid-template-rows:repeat(3,100px) ; */
     /* grid-template-areas: "header header header header" 
     "main main . sidebar" 
     "footer footer footer footer"; */
-    column-gap: 10px;
+    /* column-gap: 10px;
     justify-items: center;
     align-items: center;
     justify-content: center;
@@ -95,7 +95,7 @@ p{
     text-align: center;
     align-content: center;
     color: white;
-}
+} */
 
 /* .item1{
     grid-area: header;
@@ -112,3 +112,32 @@ p{
 .item4{
     grid-area: footer;
 } */
+
+@media(max-width:768px){
+    p{
+        font-size: 25px;
+    }
+}
+
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+
+}
+
+@media(min-width:768px){
+    .box{
+        background-color: red;
+    }
+}
+
+li{
+    list-style-type:none;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
